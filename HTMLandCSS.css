@@ -1,0 +1,71 @@
+/*
+    CSS for HTMLandCSS.php
+
+    CSS is applied in the following order:
+        Inline style (inside an HTML element)
+        External and internal style sheets (in the head section)
+        Browser default
+        
+*/
+
+body
+{
+  background-color: antiquewhite;
+}
+
+#fixed
+{
+    position: absolute;
+    left: 100px;
+    top: 650px;
+    width: 300px;
+    border: 2px olive solid;
+    visibility: visible;
+}
+
+#imgCrows
+{
+    float: left;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    left: -50px;
+}
+
+.classSpecial
+{
+    text-align: justify;
+    border: 5px solid green !important;
+}
+
+.classSpecialNoBang
+{
+    text-align: justify;
+    border: 5px solid green;
+}
+
+#divBoxVals
+{
+    width: 450px;
+    padding: 5px;
+    border: 2px dotted black;
+    margin: 5px;
+    text-align: left;
+    float: left;
+}
+
+#divBoxValsNoFloat
+{
+    width: 450px;
+    padding: 5px;
+    border: 2px dotted black;
+    margin: 5px;
+    text-align: left;
+}
+
+#divNoBoxVals
+{
+
+}
+
+

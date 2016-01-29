@@ -15,9 +15,9 @@ body
 
 #fixed
 {
-    position: absolute;
+    position: fixed;
     left: 250px;
-    top: 650px;
+    top: 300px;
     width: 300px;
     border: 2px olive solid;
     visibility: visible;

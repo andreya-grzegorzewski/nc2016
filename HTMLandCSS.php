@@ -19,7 +19,7 @@
 #divBoxValsNoFloat
 {
     width: 450px;
-    padding: 5px;
+    padding: 6px;
     border: 2px dotted black;
     margin: 5px;
     text-align: left;

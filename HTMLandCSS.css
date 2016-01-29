@@ -16,7 +16,7 @@ body
 #fixed
 {
     position: fixed;
-    left: 250px;
+    left: 650px;
     top: 300px;
     width: 300px;
     border: 2px olive solid;
@@ -29,7 +29,7 @@ body
     width: 200px;
     margin: 10px;
     position: relative;
-    left: -50px;
+    left: 0px;
 }
 
 .classSpecial

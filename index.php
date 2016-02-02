@@ -10,9 +10,9 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <a href="HTMLandCSS.php">HTML and CSS Page</a>
         <?php
          echo phpinfo();
         ?>
+        <a href="HTMLandCSS.php">HTML and CSS Page</a>
     </body>
 </html>

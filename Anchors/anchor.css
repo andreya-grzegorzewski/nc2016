@@ -23,9 +23,11 @@ ul#anchors li
     background-color: cadetblue;
 }
 
+
 #divMenuItem1
 {
-    display: none; 
+    display: none;  
+    
 }
 #divMenuItem2
 {
@@ -35,3 +37,19 @@ ul#anchors li
 {
      display: none; 
 }
+
+/*
+#divMenuItem1
+{
+    visibility: hidden;
+    
+}
+#divMenuItem2
+{
+     visibility: hidden;
+}
+#divMenuItem3
+{
+     visibility: hidden;
+}
+*/

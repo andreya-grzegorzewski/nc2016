@@ -6,17 +6,15 @@
 
 function init()
 {
-    alert("init");
     document.body.style.textAlign = "center";
-    document.body.style.border = "20px solid green";
+    document.body.style.border = "10px solid green";
 }
 
 function theAnchorOnClick(ItemNum)
 {
-    alert("In theAnchorClick()");
-    document.getElementById("divMenuItem1").style.visibility = "hidden";
-    document.getElementById("divMenuItem2").style.visibility = "hidden";
-    document.getElementById("divMenuItem3").style.visibility = "hidden";
+    document.getElementById("divMenuItem1").style.display = "none";
+    document.getElementById("divMenuItem2").style.display = "none";
+    document.getElementById("divMenuItem3").style.display = "none";
     
-    document.getElementById("divMenuItem"+ItemNum).style.visibility = "visible";
+    document.getElementById("divMenuItem"+ItemNum).style.display = "block";
 }

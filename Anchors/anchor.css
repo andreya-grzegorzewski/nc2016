@@ -11,9 +11,13 @@ and open the template in the editor.
 body
 {
     background-color: bisque;
-    border-top: 200px solid red;    
+    border: 2px solid red;    
 }
 
+ul#anchors li
+{
+    display: inline;
+}
 #anchor
 {
     background-color: cadetblue;
@@ -21,13 +25,13 @@ body
 
 #divMenuItem1
 {
-    visibility: hidden;
+    display: none; 
 }
 #divMenuItem2
 {
-    visibility: hidden;
+     display: none; 
 }
 #divMenuItem3
 {
-    visibility: hidden;
+     display: none; 
 }

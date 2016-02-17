@@ -17,4 +17,6 @@ function theAnchorOnClick(ItemNum)
     document.getElementById("divMenuItem3").style.display = "none";
     
     document.getElementById("divMenuItem"+ItemNum).style.display = "block";
+    
+    
 }

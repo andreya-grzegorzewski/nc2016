@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Anchor Elements</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="HandleAnchorClick.js"></script>
+        <link href="anchor.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body onload="initTabs()">
+        <ul id="anchors">
+            <li><a href="#divMenuItem1" onclick="theAnchorOnClick(1)">Menu Item 1</a></li>
+            <li><a href="#divMenuItem2" onclick="theAnchorOnClick(2)">Menu Item 2</a></li>
+            <li><a href="#divMenuItem2" onclick="theAnchorOnClick(3)">Menu Item 3</a></li>
+        </ul>
+        <div id="divMenuItem1">
+            This is divMenuItem1.
+        </div>
+
+        <div id="divMenuItem2">
+            This is divMenuItem2.
+        </div>
+
+        <div id="divMenuItem3">
+            This is divMenuItem3.
+        </div>
+    </body>
+</html>

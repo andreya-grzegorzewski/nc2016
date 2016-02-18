@@ -7,7 +7,7 @@ ul#tabs
 { 
     list-style-type: none;                  /* No bullets                     */
     margin: 300px 0 0 0;                    /* Positive top margin            */
-    padding: 0 0 0.3em 0;                   /* Bottom padding on tab to make  */
+    padding: 0 0 0.3em 0;                   /* Bottom padding on tabs to make  */
                                             /* them adjacent to the content   */
 }
 ul#tabs li 

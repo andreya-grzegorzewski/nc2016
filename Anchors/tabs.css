@@ -6,8 +6,9 @@ body
 ul#tabs 
 { 
     list-style-type: none;                  /* No bullets                     */
-    margin: 30px 0 0 0;                     /* Positive top margin            */
-    padding: 0 0 0.3em 0;                   /* ...                            */
+    margin: 300px 0 0 0;                    /* Positive top margin            */
+    padding: 0 0 0.3em 0;                   /* Bottom padding on tab to make  */
+                                            /* them adjacent to the content   */
 }
 ul#tabs li 
 { 
